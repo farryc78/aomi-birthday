@@ -43,7 +43,7 @@
     const giftButton = document.getElementById('giftButton');
 
     if (daysEl && hoursEl && minutesEl && secondsEl && countdownHint && giftButton) {
-      const targetDate = new Date('2026-07-13T00:00:00+07:00').getTime();
+      const targetDate = new Date('2026-07-14T00:00:00+07:00').getTime();
 
       if (isNaN(targetDate)) {
         console.error('⚠️ Format targetDate salah! Gunakan format: YYYY-MM-DDTHH:mm:ss+07:00 — countdown tidak akan pernah selesai selama ini NaN.');
