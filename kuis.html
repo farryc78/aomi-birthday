@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pertanyaan</title>
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%B1%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=1">
+</head>
+
+<body class="quiz-body">
+  <div class="page-transition-overlay" id="pageTransitionOverlay" aria-hidden="true">
+
+  </div>
+
+
+
+  <div class="bg-blob bg-blob-1" aria-hidden="true"></div>
+  <div class="bg-blob bg-blob-2" aria-hidden="true"></div>
+
+  <div class="page">
+    <div class="cat-watch" aria-hidden="true">
+      <svg viewBox="0 0 260 280" xmlns="http://www.w3.org/2000/svg">
+        <g transform="translate(196,148)">
+          <path class="cat-tail" d="M10,92 C14,42 46,14 72,24" fill="none" stroke="var(--white)" stroke-width="22"
+            stroke-linecap="round" />
+        </g>
+        <ellipse cx="130" cy="212" rx="94" ry="66" fill="var(--white)" stroke="var(--pink-mid)" stroke-width="2" />
+        <g class="cat-head-tilt">
+          <polygon points="72,80 90,15 118,85" fill="var(--white)" stroke="var(--pink-mid)" stroke-width="2" />
+          <polygon points="142,85 170,15 188,80" fill="var(--white)" stroke="var(--pink-mid)" stroke-width="2" />
+          <circle cx="130" cy="115" r="68" fill="var(--white)" stroke="var(--pink-mid)" stroke-width="2" />
+          <polygon points="82,70 93,36 108,74" fill="var(--pink-light)" />
+          <polygon points="152,74 167,36 178,70" fill="var(--pink-light)" />
+          <circle cx="88" cy="132" r="11" fill="var(--pink-mid)" opacity="0.55" />
+          <circle cx="172" cy="132" r="11" fill="var(--pink-mid)" opacity="0.55" />
+          <ellipse class="cat-eye" cx="103" cy="112" rx="8" ry="12" fill="var(--ink)" />
+          <ellipse class="cat-eye" cx="157" cy="112" rx="8" ry="12" fill="var(--ink)" />
+          <polygon points="124,128 136,128 130,138" fill="var(--pink-deep)" />
+          <path d="M130,138 Q118,150 105,140" fill="none" stroke="var(--pink-deep)" stroke-width="3"
+            stroke-linecap="round" />
+          <path d="M130,138 Q142,150 155,140" fill="none" stroke="var(--pink-deep)" stroke-width="3"
+            stroke-linecap="round" />
+          <line x1="62" y1="112" x2="30" y2="106" stroke="var(--pink-mid)" stroke-width="2" stroke-linecap="round" />
+          <line x1="62" y1="122" x2="28" y2="122" stroke="var(--pink-mid)" stroke-width="2" stroke-linecap="round" />
+          <line x1="62" y1="132" x2="30" y2="138" stroke="var(--pink-mid)" stroke-width="2" stroke-linecap="round" />
+          <line x1="198" y1="112" x2="230" y2="106" stroke="var(--pink-mid)" stroke-width="2" stroke-linecap="round" />
+          <line x1="198" y1="122" x2="232" y2="122" stroke="var(--pink-mid)" stroke-width="2" stroke-linecap="round" />
+          <line x1="198" y1="132" x2="230" y2="138" stroke="var(--pink-mid)" stroke-width="2" stroke-linecap="round" />
+        </g>
+        <ellipse cx="97" cy="263" rx="24" ry="16" fill="var(--white)" stroke="var(--pink-mid)" stroke-width="2" />
+        <ellipse cx="163" cy="263" rx="24" ry="16" fill="var(--white)" stroke="var(--pink-mid)" stroke-width="2" />
+      </svg>
+    </div>
+
+    <h1 class="heading quiz-heading">Aku ada pertanyaan nihh</h1>
+    <p class="question">Kamu seneng ga sama hadiah inii??</p>
+
+    <div class="quiz-actions" id="quizActions">
+      <button class="btn-yes" id="btnYes">Seneng Banget!</button>
+      <button class="btn-no" id="btnNo">Najis!</button>
+    </div>
+
+    <p class="guilt-text" id="guiltText" aria-live="polite"></p>
+  </div>
+  <script src="script.js?v=1" defer></script>
+</body>
+
+</html>
